@@ -9,11 +9,6 @@ This is a Todo List application built using Spring Boot as the backend to handle
 - Maven : Apache Maven 3.9.3
 - Editor : Intellij IDEA 2023.1.1 Community Edition
 
-# Frontend
-The frontend of this application can be accessed at the following link:
-```
-https://github.com/rardan97/todo-app-fe
-```
 
 ## run project
 
@@ -45,4 +40,10 @@ mvn clean install
 5. if success next input command
 ```
 mvn spring-boot:run
+```
+
+## FrontEnd
+The FrontEnd of this application can be accessed at the following link:
+```
+https://github.com/rardan97/todo-app-fe
 ```
