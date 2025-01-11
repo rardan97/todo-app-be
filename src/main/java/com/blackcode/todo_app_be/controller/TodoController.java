@@ -43,6 +43,7 @@ public class TodoController {
 
     @PostMapping("/createTodo")
     public ResponseEntity<TodoRes> createTodo(@RequestBody TodoReq todoReq){
+        System.out.println("Check create");
         try{
             TodoRes rtnData = todoService.addTodo(todoReq);
             return new ResponseEntity<TodoRes>(rtnData, HttpStatus.OK);
