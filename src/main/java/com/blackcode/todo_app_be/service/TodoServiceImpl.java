@@ -67,10 +67,6 @@ public class TodoServiceImpl implements TodoService{
         Optional<Todo> dataTodo = todoRepository.findById(id);
         if(dataTodo.isPresent()){
             Todo todo1 = new Todo();
-            System.out.println("id : "+dataTodo.get().getId());
-            System.out.println("title : "+todo.getTitle());
-            System.out.println("desc : "+todo.getDescription());
-            System.out.println("status : "+todo.getStatus());
             todo1.setId(dataTodo.get().getId());
             todo1.setTitle(todo.getTitle());
             todo1.setDescription(todo.getDescription());
